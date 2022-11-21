@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @SrinivasSelvaraj
-- 👀 I’m interested in codin and ethical hacking 
+- 👀 I’m interested in coding and developing 
 - 🌱 I’m currently learning python in data science
-- 💞️ I’m looking to collaborate on prorammig related
+- 💞️ I’m looking to collaborate on proramming related
 - 📫 How to reach me srinivasselavaraj731@gmail.com
 
 <!---
