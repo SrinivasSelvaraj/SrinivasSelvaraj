@@ -1,6 +1,7 @@
 # Hello, I'm Srinivas S! 👋
 
-![Banner](file:///home/srinivas/Downloads/github-header-image.png)
+ <img src="https://github.com/SrinivasSelvaraj/SrinivasSelvaraj/blob/main/github-header-image.png" alt="Banner" style="width: 100%;">
+
 
 ## About Me
 I am a recent Computer Engineering graduate with a passion for Software Development and Data Engineering. I possess a solid foundation in programming languages such as Python, Java, and SQL, as well as expertise in data analysis and software development methodologies. I am committed to continuous learning and development, eager to leverage my technical skills and innovative thinking in a practical setting.
