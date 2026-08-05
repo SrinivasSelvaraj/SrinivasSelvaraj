@@ -3,11 +3,6 @@
 </p>
 
 <p align="center">
-  <b>The short version:</b> I turn messy, real-world data into shipped AI products —<br>
-  pipelines on one end, agents on the other, production discipline throughout.
-</p>
-
-<p align="center">
   <img src="assets/showcase.svg" width="100%" alt="Selected work: Agentic Data Analyst, AI Research Assistant, Job-Search Autopilot, OCR Document Intelligence, Crop-Yield Ensemble, CNN on SageMaker — plus tooling and career trajectory." />
 </p>
 
