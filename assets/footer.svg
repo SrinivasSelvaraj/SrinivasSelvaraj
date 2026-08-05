@@ -59,18 +59,16 @@ text{font-kerning:normal}
 
 <!-- LinkedIn -->
 <a href="https://www.linkedin.com/in/srinivas-s-s8292/">
-  <rect x="152" y="90" width="28" height="28" rx="6" fill="#0A1625" stroke="#22D3EE" stroke-width="1" opacity=".6"/>
+  <rect x="152" y="90" width="30" height="28" rx="6" fill="#0A1625" stroke="#22D3EE" stroke-width="1" opacity=".6"/>
   <text x="166" y="109" class="sgb" font-size="11" fill="#22D3EE" text-anchor="middle">in</text>
-  <text x="192" y="109" class="sg" font-size="16" fill="#B9C4D8">linkedin.com/in/</text>
-  <text x="308" y="109" class="sgb" font-size="16" fill="#E8ECF4">srinivas-s-s8292</text>
+  <text x="192" y="109" class="sg" font-size="16" fill="#B9C4D8">linkedin</text>
 </a>
 
 <!-- Email -->
 <a href="mailto:srinivasselvaraj06@gmail.com">
-  <rect x="152" y="128" width="28" height="28" rx="6" fill="#0A1625" stroke="#34D399" stroke-width="1" opacity=".6"/>
+  <rect x="152" y="128" width="30" height="28" rx="6" fill="#0A1625" stroke="#34D399" stroke-width="1" opacity=".6"/>
   <text x="166" y="147" class="sgb" font-size="11" fill="#34D399" text-anchor="middle">@</text>
-  <text x="192" y="147" class="sg" font-size="16" fill="#B9C4D8">srinivasselvaraj06</text>
-  <text x="325" y="147" class="sgb" font-size="16" fill="#E8ECF4">@gmail.com</text>
+  <text x="192" y="147" class="sg" font-size="16" fill="#B9C4D8">Gmail</text>
 </a>
 
 <!-- Vertical divider -->
@@ -86,6 +84,6 @@ text{font-kerning:normal}
 <line x1="60" y1="180" x2="920" y2="180" stroke="url(#fline)" stroke-width="1"/>
 
 <!-- Credit -->
-<text x="490" y="202" class="mono" font-size="10" fill="#2A3650" text-anchor="middle" letter-spacing="1">designed &amp; hand-coded in pure SVG  ·  type: Unbounded / Space Grotesk / JetBrains Mono  ·  no templates were harmed</text>
+<text x="490" y="202" class="mono" font-size="10" fill="#2A3650" text-anchor="middle" letter-spacing="1">designed &amp; hardcoded using Svg</text>
 
 </svg>
