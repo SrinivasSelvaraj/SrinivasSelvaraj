@@ -7,13 +7,5 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/srinivas-s-s8292/"><b>LinkedIn →</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:srinivasselvaraj06@gmail.com"><b>srinivasselvaraj06@gmail.com</b></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/SrinivasSelvaraj/sql-journey-data-engineering"><b>SQL Journey repo →</b></a>
-</p>
-
-<p align="center">
-  <sub>designed &amp; hand-coded in pure SVG · type: <b>Unbounded</b> / <b>Space Grotesk</b> / <b>JetBrains Mono</b> · no templates were harmed</sub>
+  <img src="https://streak-stats.demolab.com/?user=SrinivasSelvaraj&hide_border=true&background=05070D&stroke=1B2330&ring=22D3EE&fire=34D399&currStreakLabel=34D399&sideLabels=22D3EE&dates=5A6478&currStreakNum=E8ECF4&sideNums=E8ECF4&border_radius=14" width="65%" alt="GitHub Streak" />
 </p>
