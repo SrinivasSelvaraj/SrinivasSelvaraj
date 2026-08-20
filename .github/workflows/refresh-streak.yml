@@ -1,0 +1,29 @@
+name: Refresh streak SVG
+
+on:
+  schedule:
+    - cron: "30 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch latest streak SVG
+        run: |
+          curl -s -L \
+            "https://streak-stats.demolab.com/?user=SrinivasSelvaraj&hide_border=true&background=05070D&stroke=1B2330&ring=F472B6&fire=F472B6&currStreakLabel=22D3EE&sideLabels=A78BFA&dates=8FA3C8&currStreakNum=FFFFFF&sideNums=E8ECF4&border_radius=18&card_width=980" \
+            -o assets/streak.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/streak.svg
+          git diff --cached --quiet || git commit -m "chore: refresh streak SVG [skip ci]"
+          git push
