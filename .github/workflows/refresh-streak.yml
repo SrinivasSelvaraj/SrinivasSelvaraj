@@ -14,15 +14,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch latest streak SVG (cache-busted)
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate streak SVG from GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          CACHE_BUST=$(date +%s)
-          curl -s -L \
-            -H "Cache-Control: no-cache" \
-            "https://streak-stats.demolab.com/?user=SrinivasSelvaraj&hide_border=true&background=05070D&stroke=1B2330&ring=F472B6&fire=F472B6&currStreakLabel=22D3EE&sideLabels=A78BFA&dates=8FA3C8&currStreakNum=FFFFFF&sideNums=E8ECF4&border_radius=18&card_width=980&cache_bust=${CACHE_BUST}" \
-            -o assets/streak.svg
-          echo "Fetched streak SVG (cache_bust=${CACHE_BUST})"
-          head -c 400 assets/streak.svg
+          python scripts/gen_streak.py SrinivasSelvaraj assets/streak.svg
 
       - name: Commit if changed
         run: |
