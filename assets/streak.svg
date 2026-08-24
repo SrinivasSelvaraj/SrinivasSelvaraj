@@ -9,19 +9,19 @@
   <line x1="653.3333333333334" y1="45" x2="653.3333333333334" y2="155" stroke="#1B2330" stroke-width="1"/>
 
   <!-- Total contributions -->
-  <text x="163.33333333333334" y="80" text-anchor="middle" class="num" fill="#E8ECF4">375</text>
+  <text x="163.33333333333334" y="80" text-anchor="middle" class="num" fill="#E8ECF4">390</text>
   <text x="163.33333333333334" y="118" text-anchor="middle" class="lbl" fill="#A78BFA">Total Contributions</text>
   <text x="163.33333333333334" y="148" text-anchor="middle" class="dt">Dec 8, 2021 - Present</text>
 
   <!-- Current streak (centre, ringed) -->
   <circle cx="490.0" cy="82" r="42" fill="none" stroke="#F472B6" stroke-width="5"/>
   <path d="M 490.0 30 q -9 12 0 22 q 9 -4 0 -22 z" fill="#F472B6"/>
-  <text x="490.0" y="95" text-anchor="middle" class="num" fill="#FFFFFF">21</text>
+  <text x="490.0" y="95" text-anchor="middle" class="num" fill="#FFFFFF">22</text>
   <text x="490.0" y="152" text-anchor="middle" class="lbl" fill="#22D3EE">Current Streak</text>
-  <text x="490.0" y="178" text-anchor="middle" class="dt">Aug 3 - Aug 23</text>
+  <text x="490.0" y="178" text-anchor="middle" class="dt">Aug 3 - Aug 24</text>
 
   <!-- Longest streak -->
-  <text x="816.6666666666667" y="80" text-anchor="middle" class="num" fill="#E8ECF4">21</text>
+  <text x="816.6666666666667" y="80" text-anchor="middle" class="num" fill="#E8ECF4">22</text>
   <text x="816.6666666666667" y="118" text-anchor="middle" class="lbl" fill="#A78BFA">Longest Streak</text>
-  <text x="816.6666666666667" y="148" text-anchor="middle" class="dt">Aug 3 - Aug 23</text>
+  <text x="816.6666666666667" y="148" text-anchor="middle" class="dt">Aug 3 - Aug 24</text>
 </svg>
