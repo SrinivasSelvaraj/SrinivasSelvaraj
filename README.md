@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/streak.svg?v=1790003711" width="100%" alt="GitHub Streak Stats" />
+  <img src="assets/streak.svg?v=1790084061" width="100%" alt="GitHub Streak Stats" />
 </p>
 
 <p align="center">
